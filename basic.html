@@ -4,6 +4,8 @@
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
   	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>
 	Portfolio
 	</title>
@@ -11,6 +13,20 @@
 <body>
 	<center>
 	<div class="five" align ="left">
+	<nav class="w3-bar w3-black">
+    <a href="#home" class="w3-button w3-bar-item">Home</a>
+    <a href="#band" class="w3-button w3-bar-item">Band</a>
+    <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+    <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+</nav>
+	<section>
+  <img class="mySlides" src="Image/3232016.jpg"
+  style="width:100%">
+  <img class="mySlides" src="Image/3232016.jpg"
+  style="width:100%">
+  <img class="mySlides" src="Image/3232016.jpg"
+  style="width:100%">
+</section>
 	<div class="icon-bar">
       <a  href="www.facebook.com"><i class="fa fa-home"></i></a>
       <a href="#"><i class="fa fa-search"></i></a> 
@@ -18,16 +34,32 @@
       <a href="#"><i class="fa fa-globe"></i></a>
       <a href="#"><i class="fa fa-trash"></i></a> 
  </div>
- <div align="right">	
-      <a href="www.facebook.com" target ="_blank" class="fa fa-facebook"></a>
-      <a href="www.skype.com" target ="_blank"class="fa fa-twitter"></a>
-      <a href="www.gmail.com" target ="_blank" class="fa fa-google"></a>
-      <a href="www.linkedin.com" target ="_blank" class="fa fa-linkedin"></a>
-      <a href="www.instagram.com" target ="_blank" class="fa fa-instagram"></a>
-      <a href="www.yahoo.com" target ="_blank" class="fa fa-yahoo"></a>
+
+<div class="footer" align = "center">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a> 
+  <p>&copy;2017Policy</p>
 </div>
 </div>
 </center>
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
 </body>
 </html>
 

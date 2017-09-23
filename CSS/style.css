@@ -1,7 +1,7 @@
 
 body{
     background-repeat: no-repeat;
-	  background-color: #000;
+	background-color:19041F;
     margin: 0 auto;
     color: white;
     padding: 20px;
@@ -54,8 +54,9 @@ div.five {
 
 
 .fa {
-  padding: 6px;
-  font-size: 25px;
+
+  padding: 5px;
+  font-size: 30px;
   width: 35px;
   height: 35px;
   text-align: center;
@@ -67,6 +68,7 @@ div.five {
 }
 
 .fa-facebook {
+  margin-top:50px;
   background: #3B5998;
   color: white;
 }
@@ -107,11 +109,6 @@ div.five {
   color: white;
 }
 
-.fa-yahoo {
-  background: #430297;
-  color: white;
-}
-
 
 .icon-bar {
       width: 120px;
@@ -135,7 +132,7 @@ div.five {
       background-color: #4CAF50 !important;
   }
 .icon-bar a:hover {
-    background-color: #4CAF50;
+    background-color: skyblue;
 }
 
 .active {
@@ -159,4 +156,9 @@ div.five {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+div.footer{
+	background-color:black;
+	height:200px;
 }
