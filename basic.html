@@ -31,24 +31,18 @@
   <img class="mySlides" src="Image/3232016.jpg"
 
   style="width:100%" >
-
-  style="width:100%">
-
   <img class="mySlides" src="Image/3232016.jpg"
   style="width:100%">
 </section>
 	<div class="icon-bar">
 
-      <a  href="#"><i class="fa fa-home"></i></a>
-
+      <a  href="#"><i class="fa fa-home" ></i></a>
       <a  href="www.facebook.com"><i class="fa fa-home"></i></a>
-
       <a href="#"><i class="fa fa-search"></i></a> 
       <a href="#"><i class="fa fa-envelope"></i></a> 
       <a href="#"><i class="fa fa-globe"></i></a>
       <a href="#"><i class="fa fa-trash"></i></a> 
  </div>
-
 <div class="footer" align = "center">
   <a href="https://www.facebook.com/?ref=logo" target="_blank"><i class="fa fa-facebook"></i></a>
   <a href="#"><i class="fa fa-twitter"></i></a>
@@ -75,6 +69,45 @@ function carousel() {
     setTimeout(carousel, 3000);
 }
 </script>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
 </body>
 </html>
 
