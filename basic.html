@@ -1,0 +1,71 @@
+<!DOCTYPE>
+
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+  	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>
+	Portfolio
+	</title>
+		</head>
+<body>
+	<center>
+	<div class="five" align ="left">
+	<div class="six">
+	<center>
+	<nav class="w3-bar w3-black">
+    <a href="#home">Home</a>&nbsp&nbsp&nbsp
+    <a href="#band">Band</a>&nbsp&nbsp&nbsp
+    <a href="#tour">Tour</a>&nbsp&nbsp&nbsp
+    <a href="#contact">Contact</a>
+	</nav>
+	</center>
+	</div>
+	<section>
+  <img class="mySlides" src="Image/3232016.jpg"
+  style="width:100%">
+  <img class="mySlides" src="Image/3232016.jpg"
+  style="width:100%" >
+  <img class="mySlides" src="Image/3232016.jpg"
+  style="width:100%">
+</section>
+	<div class="icon-bar">
+      <a  href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a> 
+      <a href="#"><i class="fa fa-envelope"></i></a> 
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a> 
+ </div>
+
+<div class="footer" align = "center">
+  <a href="https://www.facebook.com/?ref=logo" target="_blank"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a> 
+  <p>Follow Me On</p></br>
+  <p>&copy;2017</p>
+</div>
+</div>
+</center>
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+</body>
+</html>
+
+<!---->
