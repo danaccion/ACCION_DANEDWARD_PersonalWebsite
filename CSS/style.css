@@ -66,7 +66,6 @@ div.sev{
 }
 
 .fa {
-
   padding: 5px;
   font-size: 50px;
   width: 35px;
@@ -123,9 +122,6 @@ div.sev{
       background-color: #000;
   }
 
-.active {
-      background-color: #4CAF50 !important;
-  }
 .icon-bar a:hover {
     background-color: skyblue;
 }
