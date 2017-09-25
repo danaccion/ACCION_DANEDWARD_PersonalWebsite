@@ -3,7 +3,8 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
-  	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="CSS/MenuStyle.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>
@@ -50,22 +51,29 @@
   <img class="mySlides" src="Image/3232016.jpg"
   style="width:100%">
 </section>
+<div class="sev">
+        <div id="London" class="tabcontent">
+        <h3>London</h3>
+        <p>London is the capital city of England.</p>
+        </div>
+</div>  
 	<div class="icon-bar">
-
-      <a><i class="fa fa-home" class = "icon-bar" onclick="openCity('ABOUT','skyblue')" id="defaultOpen"></i></i></a>
-
-      <a><i class="fa fa-search" class = "icon-bar" onclick="openCity('ABOUT','skyblue')" id="defaultOpen"></i></i></a>
-
-      <a><i class="fa fa-envelope" class = "icon-bar" onclick="openCity('ABOUT','skyblue')" id="defaultOpen"></i></i></a>      
    
-      <a><i class="fa fa-globe" class = "icon-bar" onclick="openCity('ABOUT','skyblue')" id="defaultOpen"></i></i></a> 
-    
-       <a><i class="fa fa-trash" class = "icon-bar" onclick="openCity('ABOUT','skyblue')" id="defaultOpen"></i></i></a> 
- </div>
+        <a><i><i class="fa fa-home" class="tablinks" onclick="   
+        openCity(event, 'London')" id="defaultOpen"></i></a>
 
+        <a><i><i class="fa fa-search" class="tablinks" onclick="   
+        openCity(event, 'London')" id="defaultOpen"></i></a>
+
+        <a><i><i class="fa fa-envelope" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"></i></a>
+
+        <a><i><i class="fa fa-globe" class="tablinks" onclick=" openCity(event, 'London')" id="defaultOpen"></i></a>
+
+        <a><i><i class="fa fa-trash" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"></i></a>
+</div>
 <div class="footer" align = "center">
-  <a href="https://www.facebook.com/?ref=logo" target="_blank"><i class="fa fa-facebook"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.facebook.com/?ref=logo" target="_blank"><i class="fa fa-facebook"></i></a>&nbsp&nbsp&nbsp&nbsp
+  <a href="#"><i class="fa fa-twitter"></i></a>&nbsp&nbsp&nbsp&nbsp
   <a href="#"><i class="fa fa-linkedin"></i></a> 
   <p>Follow Me On</p></br>
   <p>&copy;2017</p>
@@ -110,5 +118,23 @@ function openCity(Contents,color) {
 document.getElementById("defaultOpen").click();
 </script>
 
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 </body>
 </html>
