@@ -65,6 +65,9 @@ div.sev{
     float:left;
 }
 
+div.slide{
+    width: 1229px;
+}
 .fa {
   padding: 5px;
   font-size: 50px;
@@ -137,9 +140,10 @@ div.footer{
 
 .tablink {
     background-color: #555;
+    height: 68px;
     color: white;
     float: left;
-    border: none;
+    border: white;
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
