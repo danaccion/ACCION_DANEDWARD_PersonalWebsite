@@ -1,7 +1,7 @@
 
 body{
     background-repeat: no-repeat;
-	background-color:19041F;
+	  background-color:19041F;
     margin: 0 auto;
     color: white;
     padding: 20px;
@@ -60,7 +60,7 @@ div.six{
 
 div.sev{
     width: 1100px;
-    height: 190px;
+    height: 195px;
     margin-left: 130px;
     float:left;
 }
@@ -140,6 +140,7 @@ div.footer{
 
 .tablink {
     background-color: #555;
+    box-shadow: 0px 0px 50px #000;
     height: 68px;
     color: white;
     float: left;
