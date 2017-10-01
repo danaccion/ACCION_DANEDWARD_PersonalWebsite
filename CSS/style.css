@@ -75,7 +75,7 @@ div.sub{
 }
 
 div.eight{
-    background-color: #000;
+    background-color: #373636;
     opacity: 0.9;
     width: 1230px;
     height: 195px;
@@ -156,7 +156,7 @@ div.slide{
 
 .icon-bar {
       width: 130px;
-       background-color: #000;
+      background-color:#373636;
   }
 
 .icon-bar a {
@@ -177,7 +177,7 @@ div.slide{
 }
 
 div.footer{
-	background-color:black;
+	background-color:#373636;
 	height:200px;
 }
 
