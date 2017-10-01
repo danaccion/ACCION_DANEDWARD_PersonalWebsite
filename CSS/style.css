@@ -13,7 +13,7 @@ iframe.one{
 }
 
 div{
-    background-color: #3E3E3E;
+    background-color: white;
     margin-top: 0px;
     width:auto;
 }
@@ -48,8 +48,8 @@ div.four {
 
 div.five {
    box-shadow: 0px 0px 100px #000;
-    width: 1230px;
-    background-color: #3E3E3E;
+  width: 1230px;
+   background-color: #3E3E3E;
 }
 
 div.six{
@@ -155,7 +155,7 @@ div.slide{
 
 .icon-bar {
       width: 130px;
-      background-color: #555;
+       background-color: #000;
   }
 
 .icon-bar a {
@@ -170,10 +170,6 @@ div.slide{
 .icon-bar a:hover {
       background-color: #000;
   }
-
-.icon-bar a:hover {
-    background-color: skyblue;
-}
 
 .active {
     background-color: #4CAF50 !important;
@@ -206,6 +202,5 @@ div.footer{
     color: white;
     display: none;
     padding: 50px;
-    text-align: center;color: 
 }
 
