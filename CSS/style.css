@@ -1,7 +1,7 @@
 
 body{
     background-repeat: no-repeat;
-	  background-color:19041F;
+	  background-color:white;
     margin: 0 auto;
     color: white;
     padding: 20px;
@@ -47,15 +47,15 @@ div.four {
 }
 
 div.five {
-    opacity:0.7; 
+   box-shadow: 0px 0px 100px #000;
     width: 1230px;
     background-color: #3E3E3E;
 }
 
 div.six{
     border-width: 5px;
-   	background-color:black;
-   	height:45px;
+   	background-color:#F9F9F9;
+   	height:20px;
     opacity: 0.7;
 }
 
@@ -74,7 +74,7 @@ div.sub{
 }
 
 div.eight{
-    background-color: #grey;
+    background-color: #000;
     opacity: 0.9;
     width: 1230px;
     height: 195px;
@@ -186,7 +186,6 @@ div.footer{
 
 .tablink {
     background-color: white;
-    opacity: 0.7;
     box-shadow: 0px 0px 70px #000;
     height: 68px;
     color: white;
@@ -199,7 +198,7 @@ div.footer{
 }
 
 .tablink:hover {
-    background-color: skyblue;
+    background-color: #F7261C;
 }
 
 /* Style the tab content */
