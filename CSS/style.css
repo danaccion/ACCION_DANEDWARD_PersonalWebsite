@@ -137,7 +137,7 @@ div.slide{
 }
 .fa {
   padding: 5px;
-  font-size: 50px;
+  font-size: 45px;
   width: 35px;
   height: 35px;
   text-align: center;
@@ -197,8 +197,8 @@ div.slide{
 }
 
 div.footer{
-	background-color:#373636;
-	height:200px;
+  margin-top:430px;
+  background-color:transparent; 
 }
 
 .tablink {
@@ -214,7 +214,7 @@ div.footer{
 }
 
 .tablink:hover {
-    background-color:  green;
+    background-color: #33cc33;
 }
 
 /* Style the tab content */
