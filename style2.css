@@ -9,9 +9,19 @@ div.a{
 	margin-left: 480px;
 }
 
+div.ab{
+    margin-top: -60px;
+    margin-left: -29px;
+    margin-bottom: -100px;
+    margin-right: -12px;
+    background-image:url("Image/b.jpg");
+    background-repeat: no-repeat;
+    height:665px;
+    width: 1305px;
+}
 
 div.b{
-	margin-top: -20px;
+   	margin-top: -20px;
     margin-left: -29px;
     margin-bottom: -100px;
     margin-right: -12px;
@@ -93,5 +103,25 @@ div.linkedin {
   width: 50px;
   background-image:url("Image/twit.jpg");
   background-repeat: no-repeat;
+  background-color: transparent;
   background-size: 50px;
+}
+
+div.pin{
+  border-radius: 10%;
+  height:200px;
+  background-image:url("Image/psuh.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+
+div.bottom{
+  margin-top:-250px;
+  background-color:transparent; 
+}
+
+div.botom{
+  margin-top:107px;
+  background-color:transparent; 
 }
