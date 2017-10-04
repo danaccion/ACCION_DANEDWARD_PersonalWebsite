@@ -7,7 +7,7 @@ body{
 
 div.a{
   margin-top: 200px;
-	margin-left: 390px;
+	margin-left: 500px;
 }
 
 div.ab{
@@ -154,10 +154,10 @@ p {
 p.one {
     position:absolute;
     font-size: 50px;
-    margin-left: 405px;  
+    margin-left: 380px;  
     margin-top: -420px;
-    font-family:Broadway;
-    color:darkgrey;
+    font-family:Stencil;
+    color:white;
     text-shadow:
     -1px -1px 0 white,
     1px -1px 0 white,
@@ -168,16 +168,15 @@ p.one {
 p.two {
     position:absolute;
     font-size: 100px;
-    margin-left: 450px;  
+    margin-left: 405px;  
     margin-top: -450px;
     color: white;
-    font-family: Arial Black;
-     color:darkgrey;
-         text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
+ font-family: Stencil;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
 }
 
 
@@ -185,45 +184,42 @@ p.three {
     position:absolute;
     font-size: 100px;
     margin-left: 682px;  
-    margin-top: -520px;
+    margin-top: -502px;
     color: white;
-    font-family: Arial Black;
-     color:darkgrey;
-         text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
+ font-family: Stencil;
+    text-shadow:
+     -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
 }
 
 p.four {
     position:absolute;
     font-size: 50px;
-    margin-left: 700px;  
-    margin-top: -510px;
+    margin-left: 500px;  
+    margin-top: -505px;
     color: white;
-    font-family: Arial Black;
-     color:darkgrey;
-         text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
+ font-family: Stencil;
+    text-shadow:
+      -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;      
 }
 
 p.five {
     position:absolute;
     font-size: 100px;
     margin-left: 690px;  
-    margin-top: -580px;
+    margin-top: -570px;
     color: white;
-    font-family: Arial Black;
-     color:darkgrey;
-         text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
+  font-family: Stencil;
+    text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;     
 }
 
 p.six{
@@ -232,11 +228,10 @@ p.six{
     margin-left: 690px;  
     margin-top: -590px;
     color: white;
-    font-family: Arial Black;
-    color:linear-gradient(to bottom, #999966 0%, #ffffff 100%);;
-        text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white;    
+    font-family: Stencil;
+    text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
 }
