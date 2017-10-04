@@ -5,12 +5,39 @@ body{
     margin-bottom: 0px;
 	}
 
+div.a{
+	margin-left: 480px;
+}
+
 div.b{
 	margin-top: -20px;
     margin-left: -29px;
     margin-bottom: -100px;
+    margin-right: -12px;
     background-image:url("Image/b1.jpg");
     background-repeat: no-repeat;
     height:665px;
-    width: 1309px;
+    width: 1305px;
 }
+
+
+div.b2{
+	margin-top: -20px;
+    margin-left: -29px;
+    margin-bottom: -100px;
+    margin-right: -12px;
+    background-image:url("Image/b2.jpg");
+    background-repeat: no-repeat;
+    height:665px;
+    width: 1305px;
+}
+
+
+.bar{
+	margin-top: -27px;
+	margin-left: 400px;
+    height:130px;
+    width: 905px;
+    background-color: #373636;
+}
+
