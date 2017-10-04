@@ -32,6 +32,17 @@ div.b2{
     width: 1305px;
 }
 
+div.b3{
+	margin-top: -20px;
+    margin-left: -29px;
+    margin-bottom: -100px;
+    margin-right: -12px;
+    background-image:url("Image/push.jpg");
+    background-repeat: no-repeat;
+    height:665px;
+    width: 1305px;
+}
+
 
 .bar{
 	margin-top: -27px;
