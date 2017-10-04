@@ -9,6 +9,7 @@ div.a{
 	margin-left: 480px;
 }
 
+
 div.b{
 	margin-top: -20px;
     margin-left: -29px;
@@ -43,6 +44,16 @@ div.b3{
     width: 1305px;
 }
 
+div.b4{
+	margin-top: -20px;
+    margin-left: -29px;
+    margin-bottom: -100px;
+    margin-right: -12px;
+    background-image:url("Image/contact.jpg");
+    background-repeat: no-repeat;
+    height:665px;
+    width: 1305px;
+}
 
 .bar{
 	margin-top: -27px;
@@ -52,3 +63,35 @@ div.b3{
     background-color: #373636;
 }
 
+
+div.facebook {
+  border-radius: 10%;
+  background-image:url("Image/face.jpg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  margin-left: 150px;
+  margin-top:10px;
+  height:50px;
+  width: 50px;
+}
+
+div.twitter {
+  border-radius: 10%;
+  background-image:url("Image/twit.jpg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  height:50px;
+  width: 50px;
+  margin-top: -50px;
+}
+
+div.linkedin {
+  border-radius: 10%;
+  margin-top: -51px;
+  margin-left: 299px;
+  height:50px;
+  width: 50px;
+  background-image:url("Image/twit.jpg");
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
