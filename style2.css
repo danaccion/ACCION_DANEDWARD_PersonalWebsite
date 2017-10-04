@@ -120,6 +120,23 @@ div.pin{
   background-size: 500px;
 }
 
+div.circle{
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 50px;
+  border-radius: 50%;
+  background-color: darkgrey;
+  width:200px; 
+  height:200px;
+}
+
+div.box{
+  position: relative;
+  background-color: white;
+  margin-left: 160px;
+  height:500px;
+  width:420px;
+}
 
 div.bottom{
   margin-top:-250px;
@@ -153,7 +170,7 @@ p {
 
 p.one {
     position:absolute;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 380px;  
     margin-top: -420px;
     font-family:Stencil;
@@ -167,9 +184,9 @@ p.one {
 
 p.two {
     position:absolute;
-    font-size: 100px;
+    font-size: 60px;
     margin-left: 405px;  
-    margin-top: -450px;
+    margin-top: -420px;
     color: white;
  font-family: Stencil;
     text-shadow:
@@ -183,8 +200,8 @@ p.two {
 p.three {
     position:absolute;
     font-size: 100px;
-    margin-left: 682px;  
-    margin-top: -502px;
+    margin-left: 632px;  
+    margin-top: -512px;
     color: white;
  font-family: Stencil;
     text-shadow:
@@ -196,11 +213,11 @@ p.three {
 
 p.four {
     position:absolute;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 500px;  
-    margin-top: -505px;
+    margin-top: -499px;
     color: white;
- font-family: Stencil;
+    font-family: Stencil;
     text-shadow:
       -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -210,9 +227,9 @@ p.four {
 
 p.five {
     position:absolute;
-    font-size: 100px;
+    font-size: 40px;
     margin-left: 690px;  
-    margin-top: -570px;
+    margin-top: -534px;
     color: white;
   font-family: Stencil;
     text-shadow:
@@ -224,9 +241,9 @@ p.five {
 
 p.six{
     position:absolute;
-    font-size: 100px;
+    font-size: 40px;
     margin-left: 690px;  
-    margin-top: -590px;
+    margin-top: -540px;
     color: white;
     font-family: Stencil;
     text-shadow:
