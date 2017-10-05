@@ -120,16 +120,6 @@ div.pin{
   background-size: 500px;
 }
 
-div.circle{
-  position: absolute;
-  margin-left: 110px;
-  margin-top: 50px;
-  border-radius: 50%;
-  background-color: darkgrey;
-  width:200px; 
-  height:200px;
-}
-
 div.box{
   position: relative;
   background-color: white;
@@ -153,6 +143,11 @@ div.bot{
   background-color:transparent; 
 }
 
+div.resize{
+  margin-left: -900px;
+  margin-top:-200px;
+  background-color: transparent;
+}
 
 p {
     position:absolute;
